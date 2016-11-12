@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851651B31DD6D7C90060B7F2 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851651AD1DD6D7C90060B7F2 /* 1.mp3 */; };
+		851651B41DD6D7C90060B7F2 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851651AE1DD6D7C90060B7F2 /* 2.mp3 */; };
+		851651B51DD6D7C90060B7F2 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851651AF1DD6D7C90060B7F2 /* 3.mp3 */; };
+		851651B61DD6D7C90060B7F2 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851651B01DD6D7C90060B7F2 /* 4.mp3 */; };
+		851651B71DD6D7C90060B7F2 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851651B11DD6D7C90060B7F2 /* 5.mp3 */; };
+		851651B81DD6D7C90060B7F2 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851651B21DD6D7C90060B7F2 /* BGM.mp3 */; };
+		851651BA1DD6FF0E0060B7F2 /* EmaRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851651B91DD6FF0E0060B7F2 /* EmaRadio.swift */; };
 		85C70F901D403A800097E038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C70F8F1D403A800097E038 /* AppDelegate.swift */; };
 		85C70F921D403A800097E038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C70F911D403A800097E038 /* ViewController.swift */; };
 		85C70F951D403A800097E038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C70F931D403A800097E038 /* Main.storyboard */; };
 		85C70F971D403A800097E038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C70F961D403A800097E038 /* Assets.xcassets */; };
 		85C70F9A1D403A800097E038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C70F981D403A800097E038 /* LaunchScreen.storyboard */; };
+		85C70FA51D403AD80097E038 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C70FA11D403AD80097E038 /* background.png */; };
+		85C70FA61D403AD80097E038 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C70FA21D403AD80097E038 /* background@2x.png */; };
+		85C70FA71D403AD80097E038 /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C70FA31D403AD80097E038 /* wine.png */; };
+		85C70FA81D403AD80097E038 /* wine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C70FA41D403AD80097E038 /* wine@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		851651AD1DD6D7C90060B7F2 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		851651AE1DD6D7C90060B7F2 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		851651AF1DD6D7C90060B7F2 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		851651B01DD6D7C90060B7F2 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		851651B11DD6D7C90060B7F2 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		851651B21DD6D7C90060B7F2 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		851651B91DD6FF0E0060B7F2 /* EmaRadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmaRadio.swift; sourceTree = "<group>"; };
 		85C70F8C1D403A800097E038 /* WinePiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinePiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C70F8F1D403A800097E038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85C70F911D403A800097E038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,10 @@
 		85C70F961D403A800097E038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C70F991D403A800097E038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C70F9B1D403A800097E038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C70FA11D403AD80097E038 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		85C70FA21D403AD80097E038 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		85C70FA31D403AD80097E038 /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine.png; sourceTree = "<group>"; };
+		85C70FA41D403AD80097E038 /* wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wine@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,17 @@
 				85C70F961D403A800097E038 /* Assets.xcassets */,
 				85C70F981D403A800097E038 /* LaunchScreen.storyboard */,
 				85C70F9B1D403A800097E038 /* Info.plist */,
+				85C70FA11D403AD80097E038 /* background.png */,
+				851651AD1DD6D7C90060B7F2 /* 1.mp3 */,
+				851651AE1DD6D7C90060B7F2 /* 2.mp3 */,
+				851651AF1DD6D7C90060B7F2 /* 3.mp3 */,
+				851651B01DD6D7C90060B7F2 /* 4.mp3 */,
+				851651B11DD6D7C90060B7F2 /* 5.mp3 */,
+				851651B21DD6D7C90060B7F2 /* BGM.mp3 */,
+				85C70FA21D403AD80097E038 /* background@2x.png */,
+				85C70FA31D403AD80097E038 /* wine.png */,
+				85C70FA41D403AD80097E038 /* wine@2x.png */,
+				851651B91DD6FF0E0060B7F2 /* EmaRadio.swift */,
 			);
 			path = WinePiano;
 			sourceTree = "<group>";
@@ -122,9 +155,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851651B71DD6D7C90060B7F2 /* 5.mp3 in Resources */,
+				851651B81DD6D7C90060B7F2 /* BGM.mp3 in Resources */,
+				851651B61DD6D7C90060B7F2 /* 4.mp3 in Resources */,
+				851651B51DD6D7C90060B7F2 /* 3.mp3 in Resources */,
 				85C70F9A1D403A800097E038 /* LaunchScreen.storyboard in Resources */,
+				85C70FA51D403AD80097E038 /* background.png in Resources */,
+				85C70FA71D403AD80097E038 /* wine.png in Resources */,
 				85C70F971D403A800097E038 /* Assets.xcassets in Resources */,
+				851651B31DD6D7C90060B7F2 /* 1.mp3 in Resources */,
+				85C70FA61D403AD80097E038 /* background@2x.png in Resources */,
+				851651B41DD6D7C90060B7F2 /* 2.mp3 in Resources */,
 				85C70F951D403A800097E038 /* Main.storyboard in Resources */,
+				85C70FA81D403AD80097E038 /* wine@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C70F921D403A800097E038 /* ViewController.swift in Sources */,
+				851651BA1DD6FF0E0060B7F2 /* EmaRadio.swift in Sources */,
 				85C70F901D403A800097E038 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WinePiano/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apcandsons.WinePiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WinePiano/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apcandsons.WinePiano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +332,7 @@
 				85C70FA01D403A800097E038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

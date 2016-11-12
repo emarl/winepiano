@@ -7,19 +7,31 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    var player:EmaRadio!
+    var playerSe:EmaRadio!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        player = EmaRadio()
+        player.play("BGM.mp3")
+        
+        playerSe = EmaRadio()
+        playerSe.setLoop(0);
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func wineTapped(sender:UIButton)
+    {
+        let soundName = "\(sender.tag).mp3"
+        playerSe.play(soundName)
+    }
 }
 

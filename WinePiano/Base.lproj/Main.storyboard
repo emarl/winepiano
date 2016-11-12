@@ -1,25 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WinePiano" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="HL4-le-Q5a">
+                                <rect key="frame" x="-50" y="0.0" width="581" height="461"/>
+                            </imageView>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Mi-cJ-DV6">
+                                <rect key="frame" x="373" y="170" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="BvT-xQ-Rsj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="111-zx-rVB">
+                                <rect key="frame" x="213" y="170" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="ZKU-ZX-Gz2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xd7-GB-DXM">
+                                <rect key="frame" x="65" y="177" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="8iF-cL-9ya"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BO2-nX-TQN">
+                                <rect key="frame" x="129" y="20" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="wYa-7W-IZp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEe-iv-jcZ">
+                                <rect key="frame" x="293" y="20" width="82" height="150"/>
+                                <state key="normal" image="wine.png"/>
+                                <connections>
+                                    <action selector="wineTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="ih2-aj-aRx"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="HL4-le-Q5a" secondAttribute="bottom" id="8QN-Xl-kjc"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ERD-Mm-hYt"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HjZ-BP-xZe"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IvP-a8-jYc"/>
+                            <constraint firstAttribute="trailing" secondItem="HL4-le-Q5a" secondAttribute="trailing" id="RLE-aZ-uwP"/>
+                            <constraint firstAttribute="bottom" secondItem="HL4-le-Q5a" secondAttribute="bottom" id="Y8d-kQ-8aJ"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="70.5" id="aR7-Ua-YtG"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c5S-9F-5mE"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="e7X-Zh-aAh"/>
+                            <constraint firstAttribute="trailing" secondItem="HL4-le-Q5a" secondAttribute="trailing" id="emR-l2-s2X"/>
+                            <constraint firstAttribute="bottom" secondItem="HL4-le-Q5a" secondAttribute="bottom" id="hkQ-yg-FYY"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="qbl-e0-tdE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HL4-le-Q5a" secondAttribute="trailing" id="skO-Bj-Hfc"/>
+                            <constraint firstItem="HL4-le-Q5a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zLL-kv-kAn"/>
+                        </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="175" y="389"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background.png" width="640" height="464"/>
+        <image name="wine.png" width="82" height="150"/>
+    </resources>
 </document>
